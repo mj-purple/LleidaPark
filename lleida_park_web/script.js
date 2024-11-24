@@ -5,8 +5,7 @@ var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 });
 
-const marker = L.marker([41.610455, 0.6093381]).addTo(map).bindPopup('<b>Hello world!</b><br />I am a popup.').openPopup();
-
+const marker = L.marker([41.610455, 0.6093381]).addTo(map).bindPopup('🔴 Cap plaça disponible').openPopup();
 let spots = 0;
 let maxSpots = 0;
 let name = '';
